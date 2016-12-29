@@ -7,4 +7,7 @@
 克隆到本地仓库后，使用Maven命令运行即可，maven命令如下。
 
 
-mvn exec:java -Dexec.mainClass="com.wyc.controller.Main"
+第一步：mvn compile
+
+
+第二步：mvn exec:java -Dexec.mainClass="com.wyc.controller.Main"
